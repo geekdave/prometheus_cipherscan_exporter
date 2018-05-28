@@ -66,7 +66,7 @@ function resetStats () {
 }
 
 async function runCipherscan (hostname) {
-  const child = await spawn('./cipherscan/cipherscan', ['-j', 'google.com']);
+  const child = await spawn('./cipherscan/cipherscan', ['-j', hostname]);
 
   process.stdin.pipe(child.stdin)
 
