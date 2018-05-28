@@ -1,0 +1,120 @@
+{
+    "target": "google.com:443",
+    "utctimestamp": "2018-05-28T17:40:32.0Z",
+    "serverside": "True",
+    "ciphersuite": [{
+        "cipher": "ECDHE-RSA-AES128-GCM-SHA256",
+        "protocols": ["TLSv1.2"],
+        "pubkey": ["2048"],
+        "sigalg": ["sha256WithRSAEncryption"],
+        "trusted": "True",
+        "ticket_hint": "100800",
+        "ocsp_stapling": "False",
+        "npn": ["grpc-exp", "h2", "http/1.1"],
+        "pfs": "ECDH,P-256,256bits",
+        "curves": ["prime256v1"],
+        "curves_ordering": "server"
+    }, {
+        "cipher": "ECDHE-RSA-AES256-GCM-SHA384",
+        "protocols": ["TLSv1.2"],
+        "pubkey": ["2048"],
+        "sigalg": ["sha256WithRSAEncryption"],
+        "trusted": "True",
+        "ticket_hint": "100800",
+        "ocsp_stapling": "False",
+        "npn": ["grpc-exp", "h2", "http/1.1"],
+        "pfs": "ECDH,P-256,256bits",
+        "curves": ["prime256v1"],
+        "curves_ordering": "server"
+    }, {
+        "cipher": "ECDHE-RSA-AES128-SHA",
+        "protocols": ["TLSv1", "TLSv1.1", "TLSv1.2"],
+        "pubkey": ["2048"],
+        "sigalg": ["sha256WithRSAEncryption"],
+        "trusted": "True",
+        "ticket_hint": "100800",
+        "ocsp_stapling": "False",
+        "npn": ["grpc-exp", "h2", "http/1.1"],
+        "pfs": "ECDH,P-256,256bits",
+        "curves": ["prime256v1"],
+        "curves_ordering": "server"
+    }, {
+        "cipher": "ECDHE-RSA-AES256-SHA",
+        "protocols": ["TLSv1", "TLSv1.1", "TLSv1.2"],
+        "pubkey": ["2048"],
+        "sigalg": ["sha256WithRSAEncryption"],
+        "trusted": "True",
+        "ticket_hint": "100800",
+        "ocsp_stapling": "False",
+        "npn": ["grpc-exp", "h2", "http/1.1"],
+        "pfs": "ECDH,P-256,256bits",
+        "curves": ["prime256v1"],
+        "curves_ordering": "server"
+    }, {
+        "cipher": "AES128-GCM-SHA256",
+        "protocols": ["TLSv1.2"],
+        "pubkey": ["2048"],
+        "sigalg": ["sha256WithRSAEncryption"],
+        "trusted": "True",
+        "ticket_hint": "100800",
+        "ocsp_stapling": "False",
+        "npn": ["grpc-exp", "h2", "http/1.1"],
+        "pfs": "None"
+    }, {
+        "cipher": "AES256-GCM-SHA384",
+        "protocols": ["TLSv1.2"],
+        "pubkey": ["2048"],
+        "sigalg": ["sha256WithRSAEncryption"],
+        "trusted": "True",
+        "ticket_hint": "100800",
+        "ocsp_stapling": "False",
+        "npn": ["grpc-exp", "h2", "http/1.1"],
+        "pfs": "None"
+    }, {
+        "cipher": "AES128-SHA",
+        "protocols": ["TLSv1", "TLSv1.1", "TLSv1.2"],
+        "pubkey": ["2048"],
+        "sigalg": ["sha256WithRSAEncryption"],
+        "trusted": "True",
+        "ticket_hint": "100800",
+        "ocsp_stapling": "False",
+        "npn": ["grpc-exp", "h2", "http/1.1"],
+        "pfs": "None"
+    }, {
+        "cipher": "DES-CBC3-SHA",
+        "protocols": ["TLSv1", "TLSv1.1", "TLSv1.2"],
+        "pubkey": ["2048"],
+        "sigalg": ["sha256WithRSAEncryption"],
+        "trusted": "True",
+        "ticket_hint": "100800",
+        "ocsp_stapling": "False",
+        "npn": ["grpc-exp", "h2", "http/1.1"],
+        "pfs": "None"
+    }],
+    "curves_fallback": "False",
+    "renegotiation": "secure",
+    "compression": "NONE",
+    "configs": {
+        "big-TLSv1.2": {
+            "tolerant": "True",
+            "proto": "TLSv1.2",
+            "cipher": "ECDHE-RSA-AES128-GCM-SHA256",
+            "trusted": "True"
+        },
+        "big-TLSv1.1": {
+            "tolerant": "True",
+            "proto": "TLSv1.1",
+            "cipher": "ECDHE-RSA-AES128-SHA",
+            "trusted": "True"
+        },
+        "big-TLSv1.0": {
+            "tolerant": "True",
+            "proto": "TLSv1",
+            "cipher": "ECDHE-RSA-AES128-SHA",
+            "trusted": "True"
+        },
+        "big-SSLv3": {
+            "tolerant": "False"
+        }
+    }
+}
